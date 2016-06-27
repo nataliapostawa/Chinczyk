@@ -95,7 +95,7 @@ def game(pieces, piecesInGame, number, finish):
                         if(number == 0):
                             nb = 1
                         else:
-                            nb = randint(0,1)
+                            nb = 0
                         if(nb == 0):
                             strategyComeOut(pieces, piecesInGame, number)
                             flag = 0
